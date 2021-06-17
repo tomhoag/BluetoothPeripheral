@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AB886985267B952B0015D53C /* PeripheralAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB886984267B952B0015D53C /* PeripheralAppApp.swift */; };
-		AB886987267B952B0015D53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB886986267B952B0015D53C /* ContentView.swift */; };
 		AB886989267B952D0015D53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB886988267B952D0015D53C /* Assets.xcassets */; };
 		AB88698C267B952D0015D53C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB88698B267B952D0015D53C /* Preview Assets.xcassets */; };
+		AB88699A267B95BE0015D53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB886999267B95BE0015D53C /* ContentView.swift */; };
+		AB88699C267B95F00015D53C /* BTPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88699B267B95F00015D53C /* BTPeripheralManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB886981267B952B0015D53C /* PeripheralApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeripheralApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB886984267B952B0015D53C /* PeripheralAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralAppApp.swift; sourceTree = "<group>"; };
-		AB886986267B952B0015D53C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB886988267B952D0015D53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB88698B267B952D0015D53C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB88698D267B952D0015D53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB886999267B95BE0015D53C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB88699B267B95F00015D53C /* BTPeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTPeripheralManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		AB886983267B952B0015D53C /* PeripheralApp */ = {
 			isa = PBXGroup;
 			children = (
+				AB88699B267B95F00015D53C /* BTPeripheralManager.swift */,
+				AB886999267B95BE0015D53C /* ContentView.swift */,
 				AB886984267B952B0015D53C /* PeripheralAppApp.swift */,
-				AB886986267B952B0015D53C /* ContentView.swift */,
 				AB886988267B952D0015D53C /* Assets.xcassets */,
 				AB88698D267B952D0015D53C /* Info.plist */,
 				AB88698A267B952D0015D53C /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB886987267B952B0015D53C /* ContentView.swift in Sources */,
+				AB88699A267B95BE0015D53C /* ContentView.swift in Sources */,
+				AB88699C267B95F00015D53C /* BTPeripheralManager.swift in Sources */,
 				AB886985267B952B0015D53C /* PeripheralAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
