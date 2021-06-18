@@ -12,6 +12,11 @@
 		AB88698C267B952D0015D53C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB88698B267B952D0015D53C /* Preview Assets.xcassets */; };
 		AB88699A267B95BE0015D53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB886999267B95BE0015D53C /* ContentView.swift */; };
 		AB88699C267B95F00015D53C /* BTPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88699B267B95F00015D53C /* BTPeripheralManager.swift */; };
+		AB8869E7267CF6ED0015D53C /* MacPeripheralAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8869E6267CF6ED0015D53C /* MacPeripheralAppApp.swift */; };
+		AB8869EB267CF6F00015D53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8869EA267CF6F00015D53C /* Assets.xcassets */; };
+		AB8869EE267CF6F00015D53C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8869ED267CF6F00015D53C /* Preview Assets.xcassets */; };
+		AB8869F4267CF73C0015D53C /* BTPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB88699B267B95F00015D53C /* BTPeripheralManager.swift */; };
+		AB8869F5267CF7EF0015D53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB886999267B95BE0015D53C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		AB88698D267B952D0015D53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB886999267B95BE0015D53C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB88699B267B95F00015D53C /* BTPeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTPeripheralManager.swift; sourceTree = "<group>"; };
+		AB8869E4267CF6ED0015D53C /* MacPeripheralApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacPeripheralApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8869E6267CF6ED0015D53C /* MacPeripheralAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacPeripheralAppApp.swift; sourceTree = "<group>"; };
+		AB8869EA267CF6F00015D53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8869ED267CF6F00015D53C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB8869EF267CF6F00015D53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8869F0267CF6F00015D53C /* MacPeripheralApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacPeripheralApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB88697E267B952B0015D53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8869E1267CF6ED0015D53C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AB886983267B952B0015D53C /* PeripheralApp */,
+				AB8869E5267CF6ED0015D53C /* MacPeripheralApp */,
 				AB886982267B952B0015D53C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				AB886981267B952B0015D53C /* PeripheralApp.app */,
+				AB8869E4267CF6ED0015D53C /* MacPeripheralApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +92,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AB8869E5267CF6ED0015D53C /* MacPeripheralApp */ = {
+			isa = PBXGroup;
+			children = (
+				AB8869E6267CF6ED0015D53C /* MacPeripheralAppApp.swift */,
+				AB8869EA267CF6F00015D53C /* Assets.xcassets */,
+				AB8869EF267CF6F00015D53C /* Info.plist */,
+				AB8869F0267CF6F00015D53C /* MacPeripheralApp.entitlements */,
+				AB8869EC267CF6F00015D53C /* Preview Content */,
+			);
+			path = MacPeripheralApp;
+			sourceTree = "<group>";
+		};
+		AB8869EC267CF6F00015D53C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB8869ED267CF6F00015D53C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,6 +132,23 @@
 			productReference = AB886981267B952B0015D53C /* PeripheralApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AB8869E3267CF6ED0015D53C /* MacPeripheralApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8869F1267CF6F00015D53C /* Build configuration list for PBXNativeTarget "MacPeripheralApp" */;
+			buildPhases = (
+				AB8869E0267CF6ED0015D53C /* Sources */,
+				AB8869E1267CF6ED0015D53C /* Frameworks */,
+				AB8869E2267CF6ED0015D53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacPeripheralApp;
+			productName = MacPeripheralApp;
+			productReference = AB8869E4267CF6ED0015D53C /* MacPeripheralApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +159,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					AB886980267B952B0015D53C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AB8869E3267CF6ED0015D53C = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -120,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				AB886980267B952B0015D53C /* PeripheralApp */,
+				AB8869E3267CF6ED0015D53C /* MacPeripheralApp */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +195,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB8869E2267CF6ED0015D53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8869EE267CF6F00015D53C /* Preview Assets.xcassets in Resources */,
+				AB8869EB267CF6F00015D53C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -144,6 +214,16 @@
 				AB88699A267B95BE0015D53C /* ContentView.swift in Sources */,
 				AB88699C267B95F00015D53C /* BTPeripheralManager.swift in Sources */,
 				AB886985267B952B0015D53C /* PeripheralAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8869E0267CF6ED0015D53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8869F4267CF73C0015D53C /* BTPeripheralManager.swift in Sources */,
+				AB8869E7267CF6ED0015D53C /* MacPeripheralAppApp.swift in Sources */,
+				AB8869F5267CF7EF0015D53C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +390,56 @@
 			};
 			name = Release;
 		};
+		AB8869F2267CF6F00015D53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacPeripheralApp/MacPeripheralApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacPeripheralApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacPeripheralApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.MacPeripheralApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB8869F3267CF6F00015D53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacPeripheralApp/MacPeripheralApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MacPeripheralApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MacPeripheralApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.MacPeripheralApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +457,15 @@
 			buildConfigurations = (
 				AB886991267B952D0015D53C /* Debug */,
 				AB886992267B952D0015D53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8869F1267CF6F00015D53C /* Build configuration list for PBXNativeTarget "MacPeripheralApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8869F2267CF6F00015D53C /* Debug */,
+				AB8869F3267CF6F00015D53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
